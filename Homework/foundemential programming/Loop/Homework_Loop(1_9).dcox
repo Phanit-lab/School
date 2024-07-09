@@ -1,1 +1,392 @@
-hi
+
+//------------------------------------------------------------------
+// File name: Exercise_1.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose:  The sum of integers from A to 500.
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    //1. Store
+    int num, total = 0; 
+    const int NUMBER = 500;
+
+    //.2 Input
+    cout << "Enter a number from 0 to 500: ";
+    cin >> num;
+
+    //3. Process
+    for (int i = num; i <= NUMBER; ++i) {
+        total += i;  
+    }
+
+    //4. Output
+    cout << "The sum of numbers from " << num << " to " << NUMBER << " is: " << total << endl;
+
+    return 0;
+}
+
+
+
+
+
+//------------------------------------------------------------------
+// File name: Exercise_2.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose: calculates and outputs the value of x to the power of y.
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    //1. store 
+    int x,y;
+    char choice;
+    do{
+    double result = 1.0;
+    //2. Input
+    cout<<"Enter the base inteder x: ";
+    cin>>x;
+    cout<<"Enter the exponent intergere y: ";
+    cin>>y;
+    //3. process
+        for(int i=0 ; i<y ; ++i){
+        result *=x;
+        }
+    //4. Output
+    cout<< x << " power of "<< y<<" is "<< result<< endl;
+    cout<<"Do you want to calculate more? (y/n): ";
+    cin>>choice;
+
+    }while(choice =='y'||choice =='Y');
+    
+
+    return 0;
+}
+
+
+//------------------------------------------------------------------
+// File name: Exercise_3.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose: calculates and outputs the value of x to the power of y.
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    //1. Store
+    double sum = 0; 
+    const int start = 1;
+    const int end = 1000;
+    double average;
+    //2. Innput
+    //3. Process
+
+    for (int i = start; i <= end; ++i) {
+        sum += i;
+        average = sum / (end - start + 1);
+        cout <<average<<endl;
+    }
+    //4. Output
+    cout << "The average of integers from " << start << " to " << end << " is: " << average << endl;
+
+    return 0;
+}
+
+
+//------------------------------------------------------------------
+// File name: Exercise_4.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose: Find  the  product  of  all  integers  from  A  to  20  .
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    //1. store
+    int A;
+    long product = 1;
+    //2. Input
+
+    //3. process
+    do{
+    cout << "Enter an integer A (1 <= A <= 20): ";
+    cin >> A;
+    }while(A<1||A>20);
+    
+    for (int i = A; i <= 20; ++i) {
+        product *= i;
+
+        }
+    //4. Output
+    cout << "The product of integers from " << A << " to 20 is: " << product << endl;
+
+    return 0;
+}
+
+
+//------------------------------------------------------------------
+// File name: Exercise_5.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose: A program that displays a multiplication table .
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    //1. Store
+    int k;
+    //2. Input
+
+    cout << "Enter a number to display its multiplication table: ";
+    cin >> k;
+    cout << "Multiplication table for " << k << ":\n";
+    //3. Process
+    for (int i = 2; i <= 10; ++i) { 
+    //4. Output
+        cout << k << " x " << i << " = " << (k * i) << endl;
+    }
+    
+    return 0;
+}
+      
+
+
+//------------------------------------------------------------------
+// File name: Exercise_6.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose: Display all numbers from zero to a number entered by the user.
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    //1. Store
+    int upperLimit;
+
+    //2. Input
+
+    cout << "Enter a positive integer: ";
+    cin >> upperLimit;
+    while (upperLimit < 0) {
+        cout << "Invalid input. Please enter a non-negative integer: ";
+        cin >> upperLimit;
+    }
+    cout << "Numbers from 0 to " << upperLimit << ":\n";
+    //3. Process
+    for (int i = 0; i <= upperLimit; ++i) {
+        cout << i << " ";
+    }
+    cout << endl; 
+    return 0;
+}
+      
+
+
+//------------------------------------------------------------------
+// File name: Exercise_7.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose: The user  enters  two  boundaries  of  range;  display  to  the  screen  all  numbers  from this  range.
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    //1. store
+    int start, end;
+
+    //2. Innput
+
+    cout << "Enter the first boundary of the range: ";
+    cin >> start;
+    cout << "Enter the second boundary of the range: ";
+    cin >> end;
+
+    //3. Process
+
+    if (start > end) {
+        swap(start, end);
+    }
+
+    cout << "\nNumbers in the range from " << start << " to " << end << ":\n";
+    for (int i = start; i <= end; ++i) {
+        cout << i << " ";
+    }
+    cout << endl;
+    cout << "\nEven numbers in the range:\n";
+    for (int i = start; i <= end; ++i) {
+        if (i % 2 == 0) {
+            cout << i << " ";
+        }
+    }
+    cout << endl;
+    cout << "\nOdd numbers in the range:\n";
+    for (int i = start; i <= end; ++i) {
+        if (i % 2 != 0) {
+            cout << i << " ";
+        }
+    }
+    cout << endl;
+    cout << "\nNumbers divisible by 7 in the range:\n";
+    for (int i = start; i <= end; ++i) {
+        if (i % 7 == 0) {
+            cout << i << " ";
+        }
+    }
+    cout << endl;
+
+    return 0;
+}
+
+
+
+//------------------------------------------------------------------
+// File name: Exercise_7.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose: The  user  enters  two  boundaries  of  range;  display  to  the  screen  all  numbers  from this  range.
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+// File name: Exercise_7.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose: The  user  enters  two  boundaries  of  range;  display  to  the  screen  all  numbers  from this  range.
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    //1. Store
+    int start, end;
+    long long sum = 0;
+    //.2 Input
+    cout << "Enter the first boundary of the range: ";
+    cin >> start;
+    cout << "Enter the second boundary of the range: ";
+    cin >> end;
+
+    //3. Process
+    if (start > end) {
+        swap(start, end);
+    }
+    for (int i = start; i <= end; ++i) {
+        sum += i;
+    }
+    //4. Output
+    cout << "The sum of numbers from " << start << " to " << end << " is: " << sum << endl;
+
+    return 0;
+}
+
+
+//------------------------------------------------------------------
+// File name: Exercise_8.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose: The user enters two range boundaries. Calculate the sum of all numbers of range. 
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    //1. Store
+    int start, end;
+    long long sum = 0;
+    //.2 Input
+    cout << "Enter the first boundary of the range: ";
+    cin >> start;
+    cout << "Enter the second boundary of the range: ";
+    cin >> end;
+
+    //3. Process
+    if (start > end) {
+        swap(start, end);
+    }
+    for (int i = start; i <= end; ++i) {
+        sum += i;
+    }
+    //4. Output
+    cout << "The sum of numbers from " << start << " to " << end << " is: " << sum << endl;
+
+    return 0;
+}
+
+
+//------------------------------------------------------------------
+// File name: Exercise_9.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose:  Calculate the sum of these numbers and output it to the screen.
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    //1. Store
+    int number;
+    int sum = 0;
+    //2. Input
+
+    cout << "Enter numbers (enter 0 to stop):" << endl;
+    //3. Proces
+    do {
+        cin >> number;
+        sum += number; 
+    } while (number != 0);
+    //4. Output
+    cout << "The sum of the entered numbers is: " << sum << endl;
+
+    return 0;
+}
+

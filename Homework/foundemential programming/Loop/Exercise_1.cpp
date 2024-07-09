@@ -1,3 +1,13 @@
+//------------------------------------------------------------------
+// File name: Exercise_1.cpp
+// Assign ID: 
+// Due Date: 09/06/24 at 11pm
+//
+// Purpose:  The sum of integers from A to 500.
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
+
 #include <iostream>
 using namespace std;
 
