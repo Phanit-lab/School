@@ -1,19 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-
-    int A,result,num;
+int main() {
+    //1. Store
+    int num, total = 0; 
     const int NUMBER = 500;
-    cout<<"Enter Number from 0 to 500: ";
-    cin>>num;
 
+    //.2 Input
+    cout << "Enter a number from 0 to 500: ";
+    cin >> num;
 
-    for (num;num<=NUMBER;num++){
-        num+num;
+    //3. Process
+    for (int i = num; i <= NUMBER; ++i) {
+        total += i;  
     }
-   cout<<"the result form "<<num<<endl;
 
+    //4. Output
+    cout << "The sum of numbers from " << num << " to " << NUMBER << " is: " << total << endl;
 
     return 0;
 }
