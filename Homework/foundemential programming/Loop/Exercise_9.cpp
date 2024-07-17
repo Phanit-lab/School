@@ -21,8 +21,8 @@ int main() {
     //3. Proces
     do {
         cin >> number;
-        sum += number; // Add the entered number to the sum
-    } while (number != 0); // Continue until the user enters 0
+        sum += number; 
+    } while (number != 0);
     //4. Output
     cout << "The sum of the entered numbers is: " << sum << endl;
 
