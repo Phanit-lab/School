@@ -72,9 +72,6 @@ int main() {
 
                     cout<<"------------------------------------"<<endl;
                     cout<<"Student "<<name[i]<<endl;
-                    for(int j=0; i< subject;j++){
-                        cout<<"Subject "<<j+1<<" score: "<<nums[j]<<endl;
-                    }
                     cout << "Total student score is " << sum << endl;
                     cout << "Average score is " << average<< endl;
                     cout << "Hightest score is " << largest<< endl;

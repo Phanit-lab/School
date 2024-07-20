@@ -13,6 +13,7 @@ int main(){
         cout<<"Enter numeber: "<<i+1;
         cin>>nums[i];
     }
+    
     for (int i = 0; i < SIZE; i++)
     {
          cout<<"Num"<<i+1<<": "<<nums[i]<<endl;

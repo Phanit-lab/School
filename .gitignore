@@ -1,0 +1,5 @@
+*.exe
+Windows
+.vscode
+.github
+*.json

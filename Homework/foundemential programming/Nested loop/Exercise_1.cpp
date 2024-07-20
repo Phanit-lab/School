@@ -1,3 +1,12 @@
+//------------------------------------------------------------------
+// File name: Exercise_1_to_10.cpp
+// Assign ID: 
+// Due Date: 16/05/24 at 11pm
+//
+// Purpose:
+//
+// Author: Mr. KEO Sopahnit
+//------------------------------------------------------------------
 #include <iostream>
 using namespace std;
 
@@ -54,7 +63,6 @@ int main(){
             }
             cout<<endl;
         break;
-
         case 'c':
         // c.
             for (int j = 1; j <=5; j++)
