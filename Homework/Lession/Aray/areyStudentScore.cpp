@@ -19,7 +19,7 @@ int main() {
 
     do{
         cout << "Menu: "<<endl;
-        cout << "1. Enter student"<<endl;
+        cout << "1. Enter student Data: "<<endl;
         cout << "2. Display Results"<<endl;
         cout << "3. Exit"<<endl;
         cout << "Enter your choice: ";
