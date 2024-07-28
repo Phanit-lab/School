@@ -8,7 +8,7 @@ int readNum(string str);
 int main();
 int subtraction(int num1,int num2);
 int multiplication(int num1,int num2);
-double division(double num1, double num2);
+double division(int num1, int num2);
 void menuChoice(char choice);
 void displayMenu();
 
@@ -16,6 +16,7 @@ int main(){
     int choice;
     do
     {  
+        // call function
         displayMenu();
         choice = readNum("Chouse number: ");
         menuChoice(choice);
@@ -24,6 +25,8 @@ int main(){
 
     return 0;
 }
+
+//Function implement
 
 int readNum(string str){
     int num;
@@ -51,7 +54,7 @@ int subtraction(int num1,int num2){
 int multiplication(int num1,int num2){
     return num1*num2;
 }
-double division(double num1, double num2){
+double division(int num1, int num2){
     return num1/num2;
 }
 
@@ -59,7 +62,6 @@ void menuChoice(char choice)
 {
     int num1;
     int num2;
-    int sum, substract, mitiplies, divice;
     enum Menu{
         ADD = 1,
         SUBTRACT,
