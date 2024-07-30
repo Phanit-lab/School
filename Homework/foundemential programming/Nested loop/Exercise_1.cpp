@@ -108,3 +108,6 @@ int main(){
     
     return 0;
 }
+void menuChoise(int choise){
+    
+}
