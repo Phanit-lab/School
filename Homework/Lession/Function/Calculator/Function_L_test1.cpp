@@ -1,40 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// function declaration
-void display(string display);
-int addition(int num1, int num2);
-void show(double result);
-int readNum(string str);
-int subtraction(int num1, int num2);
-int multiplication(int num1, int num2);
-double division(double num1, double num2);
-void menuChoice(int choice);
-void displayMenu();
-
-int main()
-{
-        int choice;
-        do
-        {
-                // call function
-                displayMenu();
-                choice = readNum("Chouse number: ");
-                while (cin.fail())
-                {
-                        cin.clear();
-                        cin.ignore();
-                        display("choose the menu agian: ");
-                        cin >> choice;
-                }
-                menuChoice(choice);
-
-        } while (choice != 0);
-
-        return 0;
-}
-
-// Function implement
 
 int readNum(string str)
 {
@@ -82,25 +48,34 @@ void menuChoice(int choice)
 {
         int num1;
         int num2;
+        enum Menu
+        {
+                EXIT = 0,
+                ADD,
+                SUBSTRAC,
+                MULTIPLY,
+                DIVICE,
+
+        };
 
         switch (choice)
         {
-        case 1:
+        case ADD:
                 num1 = readNum("Enter number 1: ");
                 num2 = readNum("Enter number 2: ");
                 show(addition(num1, num2));
                 break;
-        case 2:
+        case SUBSTRAC:
                 num1 = readNum("Enter number 1: ");
                 num2 = readNum("Enter number 2: ");
                 show(subtraction(num1, num2));
                 break;
-        case 3:
+        case MULTIPLY:
                 num1 = readNum("Enter number 1: ");
                 num2 = readNum("Enter number 2: ");
                 show(multiplication(num1, num2));
                 break;
-        case 4:
+        case DIVICE:
                 num1 = readNum("Enter number 1: ");
                 num2 = readNum("Enter number 2: ");
                 if (num2 == 0)
@@ -113,11 +88,30 @@ void menuChoice(int choice)
                         show(division(num1, num2));
                 };
                 break;
-        case 0:
+        case EXIT:
                 cout << "THE PROGRAM IS EXITED" << endl;
                 exit(0);
         default:
                 display("Invalid choice, choose the right option.");
                 break;
         }
+}
+void run()
+{
+        int choice;
+        do
+        {
+                // call function
+                displayMenu();
+                choice = readNum("Chouse number: ");
+                while (cin.fail())
+                {
+                        cin.clear();
+                        cin.ignore();
+                        display("choose the menu agian: ");
+                        cin >> choice;
+                }
+                menuChoice(choice);
+
+        } while (choice != 0);
 }
