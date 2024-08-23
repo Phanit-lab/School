@@ -1,9 +1,9 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 #include <iostream>
 using namespace std;
 
-//code color
+// code color
 const string RESET = "\033[0m";
 const string RED = "\033[31m";
 const string GREEN = "\033[32m";
@@ -15,13 +15,12 @@ const string BRIGHT_BLUE = "\033[94m";
 void registerUser();
 void displayMenuAdmin();
 void displayMenuLogin();
-void displayMenuControl(string  coontrol);
-bool login(string username,string password);
+void displayMenuControl(string coontrol);
 void controlMenu(int control);
 void adminMenu(int choise);
 void registerUser();
 
-//Main Function
+// Main Function
 
 int main()
 {
@@ -45,26 +44,19 @@ int main()
         case LOGIN:
         {
             string username, password;
+            int choise;
             cout << BRIGHT_BLUE << "-------LOGIN_MENU-------" << RESET << endl;
             cout << "Enter username: ";
             cin >> username;
             cout << "Enter password: ";
             cin >> password;
-            if (login(username, password))
+            cout << GREEN << "Login Successful!!" << RESET << endl;
+            do
             {
-                int choise;
-                cout << GREEN << "Login Successful!!" << RESET << endl;
-                do{ 
                 displayMenuAdmin();
                 cin >> choise;
                 adminMenu(choise);
-                }while(choise!=0);
-                
-            }
-            else
-            {
-                cout << RED << "Incorect username or password" << RESET << endl;
-            }
+            } while (choise != 0);
 
             break;
         }
@@ -84,15 +76,6 @@ int main()
 /*
 All Function
 */
-bool login(string username,string password) {
-    string keyName = "phanit";
-    string keyPassword = "123"; 
-    if (username == keyName && password == keyPassword) {
-        return true;
-    } else {
-        return false;
-    }
-}
 
 void controlMenu(int control)
 {
@@ -146,6 +129,7 @@ void controlMenu(int control)
 
     default:
     {
+        cout << RED << "Invalid Input" << RESET << endl;
         break;
     }
     }
@@ -168,25 +152,28 @@ void adminMenu(int choise)
         case WORD:
         {
             int controlWord;
-            do{
-            displayMenuControl("WORD");
-            cin>>controlWord;
-            controlMenu(controlWord);
-            }while(controlWord!=0);
+            do
+            {
+                displayMenuControl("WORD");
+                cin >> controlWord;
+                controlMenu(controlWord);
+            } while (controlWord != 0);
             break;
         }
         case ACCOUNT:
         {
             int controlAccount;
-            do{
-            displayMenuControl("ACCOUNT");
-            cin>>controlAccount;
-            controlMenu(controlAccount);
-            }while(controlAccount!=0);
+            do
+            {
+                displayMenuControl("ACCOUNT");
+                cin >> controlAccount;
+                controlMenu(controlAccount);
+            } while (controlAccount != 0);
             break;
         }
-        case PLAY:{
-            cout<<RED<<"GAME_WILL_RELEASE_SOON"<<RESET<<endl;
+        case PLAY:
+        {
+            cout << RED << "GAME_WILL_RELEASE_SOON" << RESET << endl;
             break;
         }
         case EXIT:
@@ -202,55 +189,56 @@ void adminMenu(int choise)
         }
     }
 }
-void registerUser(){
-    string name,username,password, id, role;
-    cout<<BRIGHT_BLUE<< "---------REGISTER--------"<<RESET<<endl;
-    cout<< " Name: ";
-    cin>>name;
-    cout<< " username: ";
-    cin>>username;
-    cout<< " Password: ";
-    cin>>password;
-    cout<< " ID: ";
-    cin>>id;
-    cout<< " Role: "<<endl;
-    cout<< " 1. Admin: "<<endl;
-    cout<< " 2. User "<<endl;
-    cout<< " Chouse role: ";
-    cin>>role;
-    cout<<BRIGHT_BLUE<< "------------------------"<<RESET<<endl;
+void registerUser()
+{
+    string name, username, password, id, role;
+    cout << BRIGHT_BLUE << "---------REGISTER--------" << RESET << endl;
+    cout << " Name: ";
+    cin >> name;
+    cout << " username: ";
+    cin >> username;
+    cout << " Password: ";
+    cin >> password;
+    cout << " ID: ";
+    cin >> id;
+    cout << " Role: " << endl;
+    cout << " 1. Admin: " << endl;
+    cout << " 2. User " << endl;
+    cout << " Chouse role: ";
+    cin >> role;
+    cout << BRIGHT_BLUE << "------------------------" << RESET << endl;
     cout << GREEN << "Register Successful!!" << RESET << endl;
 }
 
-void displayMenuLogin(){
-    cout<<BRIGHT_BLUE<< "----------MENU----------"<<RESET<<endl;
-    cout<< "1. Register"<<endl;
-    cout<< "2. Login"<<endl;
-    cout<< "0. Exit the program"<<endl;
-    cout<<BRIGHT_BLUE<< "------------------------"<<RESET<<endl;
-    cout<< "Enter your chooise: ";
+void displayMenuLogin()
+{
+    cout << BRIGHT_BLUE << "----------MENU----------" << RESET << endl;
+    cout << "1. Register" << endl;
+    cout << "2. Login" << endl;
+    cout << "0. Exit the program" << endl;
+    cout << BRIGHT_BLUE << "------------------------" << RESET << endl;
+    cout << "Enter your chooise: ";
 }
-void displayMenuAdmin(){
-    cout<<BRIGHT_BLUE<< "-------ADMIN_MENU-------"<<RESET<<endl;
-    cout<< "1. Word Control"<<endl;
-    cout<< "2. User Account Control"<<endl;
-    cout<< "3. Play Game"<<endl;
-    cout<< "0. Back to MENU"<<endl;
-    cout<<BRIGHT_BLUE<< "------------------------"<<RESET<<endl;
-    cout<< "Enter your chooise: ";
-
+void displayMenuAdmin()
+{
+    cout << BRIGHT_BLUE << "-------ADMIN_MENU-------" << RESET << endl;
+    cout << "1. Word Control" << endl;
+    cout << "2. User Account Control" << endl;
+    cout << "3. Play Game" << endl;
+    cout << "0. Back to MENU" << endl;
+    cout << BRIGHT_BLUE << "------------------------" << RESET << endl;
+    cout << "Enter your chooise: ";
 }
-void displayMenuControl(string control){
-    cout<<BRIGHT_BLUE<< "-------"<<control<<"_CONTROL-------"<<RESET<<endl;
-    cout<< "1. Add "<<control<<endl;
-    cout<< "2. Edit "<<control<<endl;
-    cout<< "3. Delete "<<control<<endl;
-    cout<< "4. Search "<<control<<endl;
-    cout<< "5. Short "<<control<<endl;
-    cout<< "6. Display "<<control<<endl;
-    cout<< "0. Back to ADMIN_MENU"<<endl;
-    cout<<BRIGHT_BLUE<< "------------------------"<<RESET<<endl;
-    cout<< "Enter your chooise: ";
-
+void displayMenuControl(string control)
+{
+    cout << BRIGHT_BLUE << "-------" << control << "_CONTROL-------" << RESET << endl;
+    cout << "1. Add " << control << endl;
+    cout << "2. Edit " << control << endl;
+    cout << "3. Delete " << control << endl;
+    cout << "4. Search " << control << endl;
+    cout << "5. Short " << control << endl;
+    cout << "6. Display " << control << endl;
+    cout << "0. Back to ADMIN_MENU" << endl;
+    cout << BRIGHT_BLUE << "------------------------" << RESET << endl;
+    cout << "Enter your chooise: ";
 }
-
