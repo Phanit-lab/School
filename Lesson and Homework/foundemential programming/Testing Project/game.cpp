@@ -8,7 +8,6 @@ const string RESET = "\033[0m";
 const string RED = "\033[31m";
 const string GREEN = "\033[32m";
 const string YELLOW = "\033[33m";
-const string BLUE = "\033[34m";
 const string BRIGHT_BLUE = "\033[94m";
 
 // Function declaration
@@ -123,7 +122,7 @@ void controlMenu(int control)
     }
     case EXIT:
     {
-        cout << "Back to the USER Menu..." << endl;
+        cout <<YELLOW<< "Back to the USER Menu..." <<RESET<< endl;
         break;
     }
 
@@ -178,7 +177,7 @@ void adminMenu(int choise)
         }
         case EXIT:
         {
-            cout << "Back to the Login Menu..." << endl;
+            cout <<YELLOW<< "Back to the Login Menu..." <<RESET<< endl;
             break;
         }
 
