@@ -18,6 +18,8 @@ void displayMenuControl(string coontrol);
 void controlMenu(int control);
 void adminMenu(int choise);
 void registerUser();
+void addWord(string addWord[], int &currentCount, int maxCount);
+void displayWord(string addWord[], int &currentCount, int maxCount);
 
 // Main Function
 
@@ -78,59 +80,66 @@ All Function
 
 void controlMenu(int control)
 {
-    switch (control)
     {
-        enum Menu
+        const int MAX_WORD = 20;
+        int corentcount = 0;
+        string addword[MAX_WORD];
+        switch (control)
         {
-            EXIT,
-            ADD,
-            EDIT,
-            DELETE,
-            SEARCH,
-            SHORT,
-            DISPLAY,
-        };
-    case ADD:
-    {
-        cout << GREEN << "ADD... Successful!!" << RESET << endl;
-        break;
-    }
-    case EDIT:
-    {
-        cout << GREEN << "EDIT... Successful!!" << RESET << endl;
-        break;
-    }
-    case DELETE:
-    {
-        cout << GREEN << "DELETE... Successful!!" << RESET << endl;
-        break;
-    }
-    case SEARCH:
-    {
-        cout << GREEN << "SEARCH... Successful!!" << RESET << endl;
-        break;
-    }
-    case SHORT:
-    {
-        cout << GREEN << "SHORT... Successful!!" << RESET << endl;
-        break;
-    }
-    case DISPLAY:
-    {
-        cout << GREEN << "DISPLAY... Successful!!" << RESET << endl;
-        break;
-    }
-    case EXIT:
-    {
-        cout <<YELLOW<< "Back to the USER Menu..." <<RESET<< endl;
-        break;
-    }
+            enum Menu
+            {
+                EXIT,
+                ADD,
+                EDIT,
+                DELETE,
+                SEARCH,
+                SHORT,
+                DISPLAY,
+            };
+        case ADD:
+        {
+            addWord(addword, corentcount, MAX_WORD);
+            cout << GREEN << "ADD WORD Successful!!" << RESET << endl;
+            break;
+        }
+        case EDIT:
+        {
+            cout << GREEN << "EDIT... Successful!!" << RESET << endl;
+            break;
+        }
+        case DELETE:
+        {
+            cout << GREEN << "DELETE... Successful!!" << RESET << endl;
+            break;
+        }
+        case SEARCH:
+        {
+            cout << GREEN << "SEARCH... Successful!!" << RESET << endl;
+            break;
+        }
+        case SHORT:
+        {
+            cout << GREEN << "SHORT... Successful!!" << RESET << endl;
+            break;
+        }
+        case DISPLAY:
+        {
+            displayWord(addword, corentcount, MAX_WORD);
+            cout << GREEN << "DISPLAY... Successful!!" << RESET << endl;
+            break;
+        }
+        case EXIT:
+        {
+            cout << YELLOW << "Back to the USER Menu..." << RESET << endl;
+            break;
+        }
 
-    default:
-    {
-        cout << RED << "Invalid Input" << RESET << endl;
-        break;
-    }
+        default:
+        {
+            cout << RED << "Invalid Input" << RESET << endl;
+            break;
+        }
+        }
     }
 }
 void adminMenu(int choise)
@@ -177,7 +186,7 @@ void adminMenu(int choise)
         }
         case EXIT:
         {
-            cout <<YELLOW<< "Back to the Login Menu..." <<RESET<< endl;
+            cout << YELLOW << "Back to the Login Menu..." << RESET << endl;
             break;
         }
 
@@ -186,6 +195,32 @@ void adminMenu(int choise)
             break;
         }
         }
+    }
+}
+void addWord(string addWord[], int &currentCount, int maxCount)
+{
+    int count;
+    cout << "How many words you want to add? : ";
+    cin >> count;
+
+    for (size_t i = 0; i < count; i++)
+    {
+        cout << "Word [" << currentCount + 1 << "]: ";
+        cin >> addWord[currentCount];
+        currentCount++;
+    }
+    cout << "Word List: " << endl;
+    for (size_t i = 0; i <= currentCount; i++)
+    {
+        cout << i + 1 << addWord[i] << endl;
+    }
+}
+void displayWord(string addWord[], int currentCount, int maxCount)
+{
+    cout << "Word List: " << endl;
+    for (size_t i = 0; i <= currentCount; i++)
+    {
+        cout << i + 1 << addWord[i] << endl;
     }
 }
 void registerUser()

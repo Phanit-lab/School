@@ -6,10 +6,10 @@ void addWord(string wordList[], int& currentCount, int maxCount) {
     cout << "How many words do you want to add? : ";
     cin >> count;
 
-    if (currentCount + count > maxCount) {
-        cout << "You can only add up to " << maxCount - currentCount << " more words." << endl;
-        count = maxCount - currentCount;
-    }
+    // if (currentCount + count > maxCount) {
+    //     cout << "You can only add up to " << maxCount - currentCount << " more words." << endl;
+    //     count = maxCount - currentCount;
+    // }
 
     for (int i = 0; i < count; i++) {
         cout << "Word [" << currentCount + 1 << "]: ";
