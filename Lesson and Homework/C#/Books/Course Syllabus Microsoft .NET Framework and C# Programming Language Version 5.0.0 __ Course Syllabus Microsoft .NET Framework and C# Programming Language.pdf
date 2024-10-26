@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Course Syllabus 
+Microsoft .NET Framework and C# Programming Language 
+Version 5.0.0 :: Course Syllabus Microsoft .NET Framework and C# Programming Language</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="apple-touch-icon" sizes="180x180" href="https://materials.itstep.org/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://materials.itstep.org/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://materials.itstep.org/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://materials.itstep.org/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="https://materials.itstep.org/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="./Course Syllabus Microsoft .NET Framework and C# Programming Language Version 5.0.0 __ Course Syllabus Microsoft .NET Framework and C# Programming Language_files/style.css" rel="stylesheet">
+<link rel="stylesheet" href="./Course Syllabus Microsoft .NET Framework and C# Programming Language Version 5.0.0 __ Course Syllabus Microsoft .NET Framework and C# Programming Language_files/monokai-sublime.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Course Syllabus Microsoft .NET Framework and C# Programming Language Version 5.0.0 __ Course Syllabus Microsoft .NET Framework and C# Programming Language_files/css2" rel="stylesheet">
+</head>
+<body data-new-gr-c-s-check-loaded="14.1086.0" data-gr-ext-installed="">
+<script type="text/javascript" id="www-widgetapi-script" src="./Course Syllabus Microsoft .NET Framework and C# Programming Language Version 5.0.0 __ Course Syllabus Microsoft .NET Framework and C# Programming Language_files/www-widgetapi.js.download" async=""></script><script src="./Course Syllabus Microsoft .NET Framework and C# Programming Language Version 5.0.0 __ Course Syllabus Microsoft .NET Framework and C# Programming Language_files/iframe_api"></script><script>
+        let isCompiled = 0
+    </script>
+<header class="header">
+<div class="content">
+<div class="menu-btn menu-btn--active"></div>
+<nav id="nav" class="d-flex flex-column flex-shrink-0 p-3 navbar"><ul class="nav_container nav nav-pills flex-column mb-auto"><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_0" class="link_wrap nav-link link-dark link_wrap_H2">Topic Plan</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_1" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 1.
+Introduction to Microsoft .NET.&nbsp;Data&nbsp;Types. Operators</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_2" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 2.
+Arrays and Strings. Enumeration</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_3" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 3.
+Structures. Classes. Properties</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_4" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 4.
+Inheritance and Polymorphism</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_5" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 5.
+Operator Overloading</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_6" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 6.
+Interfaces</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_7" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 7.
+Exception Handling.&nbsp;Garbage Collection&nbsp;</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_8" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 8.
+Generics, Using Generic Collections</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_9" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 9.
+Delegates, Events. LINQ</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_10" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 10.
+Interaction with a File System.&nbsp;Serialization</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_11" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 11.
+Using Inherited Program Code</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_12" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 12.
+Introduction to UML and Design Patterns</a></li><li><a href="https://materials.itstep.org/content/193d41ea-c526-4780-8797-ad0f96c69105/en#h-H2_13" class="link_wrap nav-link link-dark link_wrap_H2">Lesson 13.
+Exam</a></li></ul></nav>
+<p class="title">Course Syllabus
+Microsoft .NET Framework and C# Programming Language
+Version 5.0.0</p>
+</div>
+<img class="logo" src="./Course Syllabus Microsoft .NET Framework and C# Programming Language Version 5.0.0 __ Course Syllabus Microsoft .NET Framework and C# Programming Language_files/logo.svg">
+</header>
+<main class="page" style="background-color: #2FAA4F">
+<div class="wrap main-active">
+<p class="subject">Microsoft .Net Framework and C# Programming Language </p>
+<div class="info-wrap">
+<div class="type" style="color:#2FAA4F;background-color: #2FAA4F30">Lessons</div>
+</div>
+<div class="fr-wrapper"><div><div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p style="text-align: justify;"><div class="img-block"><img src="./Course Syllabus Microsoft .NET Framework and C# Programming Language Version 5.0.0 __ Course Syllabus Microsoft .NET Framework and C# Programming Language_files/Шаблон РПО C# En.jpg" class="fr-fic fr-dib back-process" id="img2"></div></p>
+<p style="text-align: justify;"><strong>For Part-time groups</strong></p>
+<p style="text-align: justify;"><strong>Version 5.0.0</strong></p>
+<p style="text-align: justify;"><strong>Course duration — 13 lessons</strong></p>
+<p style="text-align: justify;"><strong>Course objective</strong></p>
+<p style="text-align: justify;">To teach students the basics of application development using the Microsoft .NET framework and the C# programming language<strong>.&nbsp;</strong>To<strong>&nbsp;</strong>teach<strong>&nbsp;them to apply</strong> the right mechanisms and constructs to solve a particular problem.</p>
+<p style="text-align: justify;"><br></p>
+<p style="text-align: justify;"><strong>Upon completion of the course, students will:</strong></p>
+<ul>
+<li style="text-align: justify;">Understand the causes of occurence of the Microsoft .NET platform;</li>
+<li style="text-align: justify;">Use the basic terms of the Microsoft .NET platform: CLR, CLS, CTS, BCL;</li>
+<li style="text-align: justify;">Use reflectors and dotfuscators;</li>
+<li style="text-align: justify;">Understand the intricacies of OOP implementation in C#;</li>
+<li style="text-align: justify;">Create custom exception classes;</li>
+<li style="text-align: justify;">Create custom delegates and events;</li>
+<li style="text-align: justify;">Interact with the garbage collector;</li>
+<li style="text-align: justify;">Interact with inherited code;</li>
+<li style="text-align: justify;">Use serialization mechanisms;</li>
+<li style="text-align: justify;">Apply logging tools;</li>
+<li style="text-align: justify;">Know the basics of using design patterns and UML.</li>
+</ul>
+<p style="text-align: justify;"><br></p>
+<p style="text-align: justify;">Upon completion of this course, studentssubmit a practical assignment and a theory exam on the course materials. To be admitted to the exam, all homework and practical assignments must be submitted. The practical assignment should cover the maximum of material from different sections of the course.</p>
+<p style="text-align: justify;"><br></p>
+<p style="text-align: justify;"><br></p>
+<p style="text-align: justify;"><br></p>
+<p style="text-align: justify;"><br></p>
+<h2 style="text-align: justify;" id="h-H2_0"><span style="color: rgb(47, 170, 79);">Topic Plan</span></h2>
+<table cellpadding="0" cellspacing="0" class="fr-alternate-rows fr-remove-borders">
+<tbody>
+<tr>
+<td><strong>Lesson 1.</strong> Introduction to Microsoft .NET. Data Types. Operators</td>
+</tr>
+<tr>
+<td><strong>Lesson 2.</strong> Arrays and Strings. Enumerations</td>
+</tr>
+<tr>
+<td><strong>Lesson 3.</strong> Structures. Classes. Properties</td>
+</tr>
+<tr>
+<td><strong>Lesson 4.</strong> Inheritance and Polymorphism</td>
+</tr>
+<tr>
+<td><strong>Lesson 5.</strong> Operator Overloading</td>
+</tr>
+<tr>
+<td>Lesson <strong>6.</strong> Interfaces</td>
+</tr>
+<tr>
+<td><strong>Lesson 7.</strong> Exception Handling. Garbage Collection</td>
+</tr>
+<tr>
+<td><strong>Lesson 8.</strong> Generics, Using Generic Collections</td>
+</tr>
+<tr>
+<td><strong>Lesson 9.</strong> Delegates, Events. LINQ</td>
+</tr>
+<tr>
+<td><strong>Lesson 10.</strong> Interaction with a File System. Serialization</td>
+</tr>
+<tr>
+<td><strong>Lesson 11.</strong> Using Inherited Program Code</td>
+</tr>
+<tr>
+<td><strong>Lesson 12.</strong> Introduction to UML and Design Patterns</td>
+</tr>
+<tr>
+<td><strong>Lesson&nbsp;</strong><strong>13</strong>. Exam</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;"><br></p>
+<p style="text-align: justify;"><br></p>
+<p style="text-align: justify;"><br></p>
+<p style="text-align: justify;"><em>&nbsp;</em></p>
+<h2 style="text-align: left;" id="h-H2_1">Lesson 1.<br>
+<strong><span style="color: rgb(47, 170, 79);">Introduction to Microsoft .NET.&nbsp;</span></strong><strong><span style="color: rgb(47, 170, 79);">Data&nbsp;</span></strong><strong style="font-weight: 700;"><span style="color: rgb(47, 170, 79);">Types</span></strong><strong><span style="color: rgb(47, 170, 79);">. Operators</span></strong></h2>
+<ol>
+<li style="font-weight: bold;">Introduction to <strong>Microsoft .NET:&nbsp;</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">History and stages of development of programming technologies;</li>
+<li style="text-align: justify;">Causes of occurence of the Microsoft .NET platform;</li>
+<li style="text-align: justify;">Comparative analysis of advantages and disadvantages of Microsoft .NET.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Basic concepts of Microsoft .NET:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Architecture of Microsoft .NET;</li>
+<li style="text-align: justify;">CLR (Common Language Runtime);</li>
+<li style="text-align: justify;">CTS (Common Type System);</li>
+<li style="text-align: justify;">CLS (Common Language Specification);</li>
+<li style="text-align: justify;">Class Library FCL (BCL);</li>
+<li style="text-align: justify;">Languages of Microsoft .NET;</li>
+<li style="text-align: justify;">CIL (Common Intermediate Language);</li>
+<li style="text-align: justify;">Compilation and execution scheme of a Microsoft .NET app;</li>
+<li style="text-align: justify;">The concepts of metadata, manifest, assembly.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>.NET Core, .NET Standard:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is .NET Core?</li>
+<li style="text-align: justify;">Tasks and objectives of .NET Core;</li>
+<li style="text-align: justify;">What is .NET Standard?</li>
+<li style="text-align: justify;">Tasks and objectives of .NET Standard;</li>
+<li style="text-align: justify;">Comparison of .NET Core, .NET Standard, .NET Framework.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Introduction to the C# programming language:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Pros and cons of the C# programming language;</li>
+<li style="text-align: justify;">The simplest program in the C# programming language.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Reflectors and dotfuscators:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is a reflector?</li>
+<li style="text-align: justify;">The need to use a reflector;</li>
+<li style="text-align: justify;">Overview of existing reflectors;</li>
+<li style="text-align: justify;">What is a dotfuscator?</li>
+<li style="text-align: justify;">The need to use dotfuscators;</li>
+<li style="text-align: justify;">Overview of existing dotfuscators.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Data types:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Integer data types;</li>
+<li style="text-align: justify;">Data types for floating-point numbers;</li>
+<li style="text-align: justify;">Character data type;</li>
+<li style="text-align: justify;">Logical data type.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Nullable types:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is a nullable type;</li>
+<li style="text-align: justify;">Tasks and objectives of nullable types;</li>
+<li style="text-align: justify;">Operations available for nullable types;</li>
+<li style="text-align: justify;">Examples of use.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Literals.</strong></li>
+<li style="font-weight: bold;"><strong>Variables</strong>:
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The concept of a variable;</li>
+<li style="text-align: justify;">Rules for naming variables;</li>
+<li style="text-align: justify;">Scope of variables.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Input, output in the console application.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Structural and reference types.</strong></li>
+<li style="font-weight: bold;">Conversion of <strong>types:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Explicit conversion;</li>
+<li style="text-align: justify;">Implicit conversion.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Operators:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Arithmetic operators;</li>
+<li style="text-align: justify;">Relational operators;</li>
+<li style="text-align: justify;">Logical operators;</li>
+<li style="text-align: justify;">Bitwise operators;</li>
+<li style="text-align: justify;">Assignment operator;</li>
+<li style="text-align: justify;">Operators precedence;</li>
+<li style="text-align: justify;">Null-conditional operator;</li>
+<li style="text-align: justify;">Null-coalescing operator.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Conditions:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The if conditional statement;</li>
+<li style="text-align: justify;">The if else conditional statement;</li>
+<li style="text-align: justify;">The switch conditional statement:
+<ul>
+<li style="text-align: justify;">switch statement;</li>
+<li style="text-align: justify;">switch expression.</li>
+</ul>
+</li>
+<li style="text-align: justify;">Ternary operator ?:.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Loops:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The for loop;</li>
+<li style="text-align: justify;">The while loop;</li>
+<li style="text-align: justify;">The do while loop;</li>
+<li style="text-align: justify;">The foreach loop;</li>
+<li style="text-align: justify;">The break statement;</li>
+<li style="text-align: justify;">The continue statement;</li>
+<li style="text-align: justify;">The goto statement<em>.&nbsp;</em></li>
+</ul>
+</li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_2">Lesson 2.<br>
+<strong><span style="color: rgb(47, 170, 79);">Arrays and Strings. Enumeration</span></strong></h2>
+<ol>
+<li style="font-weight: bold;"><strong>Arrays:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">One-dimensional arrays;</li>
+<li style="text-align: justify;">Multidimensional arrays;</li>
+<li style="text-align: justify;">Ragged arrays;</li>
+<li style="text-align: justify;">Using the foreach loop.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Null-conditional and Null-coalescing operators.</strong></li>
+<li style="font-weight: bold;"><strong>Strings:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Creating a string;</li>
+<li style="text-align: justify;">Operations with strings;</li>
+<li style="text-align: justify;">Features of using strings.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using command line arguments.</strong></li>
+<li style="font-weight: bold;"><strong>Enumeration (enum):</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The concept of enumeration;</li>
+<li style="text-align: justify;">Syntax for declaring an enumeration;</li>
+<li style="text-align: justify;">The need and features of using enumeration;</li>
+<li style="text-align: justify;">Installing the basic type of enumeration;</li>
+<li style="text-align: justify;">Using methods for enumerations.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Top level statements:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What are top level statements?</li>
+<li style="text-align: justify;">Rules for using top level statements;</li>
+<li style="text-align: justify;">Working with the command line;</li>
+<li style="text-align: justify;">Application examples<em>.</em></li>
+</ul>
+</li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_3">Lesson 3.<br>
+<strong><span style="color: rgb(47, 170, 79);">Structures. Classes. Properties</span></strong></h2>
+<ol>
+<li style="font-weight: bold;"><strong>Structures:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The concept of structure;</li>
+<li style="text-align: justify;">Syntax for declaring a structure;</li>
+<li style="text-align: justify;">The need and features of using structures;</li>
+<li style="text-align: justify;">Constructor without parameters and structure.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Syntax of class declaration.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Access modifiers of the C# programming language.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Fields of the class.</strong></li>
+<li style="font-weight: bold;"><strong>Constructors:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The concept of constructor;</li>
+<li style="text-align: justify;">Parameterized constructor;</li>
+<li style="text-align: justify;">Overloaded constructors;</li>
+<li style="text-align: justify;">Static constructor.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Keyword this.</strong></li>
+<li style="font-weight: bold;"><strong>Methods of a class:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Passing parameters;</li>
+<li style="text-align: justify;">The return keyword;</li>
+<li style="text-align: justify;">Method overloading;</li>
+<li style="text-align: justify;">Short syntax of single-line methods.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Using ref and out parameters:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Using the ref modifier;</li>
+<li style="text-align: justify;">Using the out modifier;</li>
+<li style="text-align: justify;">Carriages.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Creating methods with a varying number of arguments.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Deconstructors.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Partial types.</strong></li>
+<li style="font-weight: bold;"><strong>Properties</strong>:
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What are properties?</li>
+<li style="text-align: justify;">Syntax for declaring properties;</li>
+<li style="text-align: justify;">get, set, init;</li>
+<li style="text-align: justify;">Short syntax of single-line properties;</li>
+<li style="text-align: justify;">Examples of using properties;</li>
+<li>Auto-property:
+<ul>
+<li style="text-align: justify;">What are auto-properties?</li>
+<li style="text-align: justify;">Examples of using auto-properties;</li>
+<li style="text-align: justify;">Initialization of auto-properties.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Namespace:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is a namespace?</li>
+<li style="text-align: justify;">Tasks and objectives of a namespace;</li>
+<li style="text-align: justify;">The <span style="color: rgb(63, 63, 64); font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">using</span> keyword;</li>
+<li style="text-align: justify;">Declaring a namespace;</li>
+<li style="text-align: justify;">Nested namespaces;</li>
+<li style="text-align: justify;">Decomposition of a namespace;</li>
+<li style="text-align: justify;">The default namespace;</li>
+<li style="text-align: justify;">The using alias directive;</li>
+<li style="text-align: justify;">Applying using to connect static members.</li>
+</ul>
+</li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_4">Lesson 4.<br>
+<strong><span style="color: rgb(47, 170, 79);">Inheritance and Polymorphism</span></strong></h2>
+<ol>
+<li style="font-weight: bold;">Inheritance in<strong>C#:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Analysis of the inheritance mechanism in C#;</li>
+<li style="text-align: justify;">Access specifiers in inheritance;</li>
+<li style="text-align: justify;">Features of using constructors in inheritance;</li>
+<li style="text-align: justify;">The base keyword;</li>
+<li style="text-align: justify;">Hiding names in inheritance.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using the sealed keyword.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using references to the base class.</strong></li>
+<li style="font-weight: bold;"><strong>Polymorphism in C#. Virtual methods</strong>:
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is a virtual method?</li>
+<li style="text-align: justify;">Overriding virtual methods;</li>
+<li style="text-align: justify;">The need to use virtual methods.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Abstract class.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Analysis of the <strong style="font-weight: 700; color: rgb(63, 63, 64); font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Object&nbsp;</strong>base class.</strong></li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_5">Lesson 5.<br>
+<strong><span style="color: rgb(47, 170, 79);">Operator Overloading</span></strong></h2>
+<ol>
+<li style="text-align: justify; font-weight: bold;"><strong>Introduction to operator overloading.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Overloading unary operators.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Overloading binary operators.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Overloading relational operators.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Overloading true and false operators.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Overloading logical operators.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Overloading conversion operators.</strong></li>
+<li style="font-weight: bold;"><strong>Indexers:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The concept of an indexer;</li>
+<li style="text-align: justify;">Creating one-dimensional indexers;</li>
+<li style="text-align: justify;">Creating multidimensional indexers;</li>
+<li style="text-align: justify;">Overloading indexers.</li>
+</ul>
+</li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_6">Lesson 6.<br>
+<strong><span style="color: rgb(47, 170, 79);">Interfaces</span></strong></h2>
+<ol>
+<li style="text-align: justify; font-weight: bold;"><strong>The concept of an interface.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Syntax for declaring interfaces.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Examples of creating interfaces.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Interface references.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Interface properties and indexers.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Inheritance of interfaces.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Problems of hiding names when inheriting interfaces.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Analysis of standard interfaces.</strong></li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_7">Lesson 7.<br>
+<strong><span style="color: rgb(47, 170, 79);">Exception Handling.&nbsp;</span></strong><strong><span style="color: rgb(47, 170, 79);">Garbage C</span></strong><strong><span style="color: rgb(47, 170, 79);">ollection&nbsp;</span></strong></h2>
+<ol>
+<li style="font-weight: bold;"><strong>Records:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is a record?</li>
+<li style="text-align: justify;">Syntax of declaring a record;</li>
+<li style="text-align: justify;">Comparing a record and a class;</li>
+<li style="text-align: justify;">Principles of operation of comparison operators, Equals, GetHashCode for records;</li>
+<li style="text-align: justify;">Inheritance of records.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Application examples.</strong></li>
+<li style="font-weight: bold;">The <strong>hierarchy of exceptions:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The System.Exception <span style="color: rgb(63, 63, 64); font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">base class</span>;</li>
+<li style="text-align: justify;">Analysis of the hierarchy of standard exceptions;</li>
+<li style="text-align: justify;">Inheritance and exceptions;</li>
+<li style="text-align: justify;">Inheritance from standard exception classes.</li>
+</ul>
+</li>
+<li style="font-weight: bold;">The <strong>basics&nbsp;</strong>of exception handling:
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The try keyword;</li>
+<li style="text-align: justify;">The catch keyword;</li>
+<li style="text-align: justify;">The <span style="color: rgb(63, 63, 64); font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">finally&nbsp;</span>keyword;</li>
+<li style="text-align: justify;">The throw keyword.</li>
+</ul>
+</li>
+<li style="font-weight: bold;">The <strong>subtleties of exception <strong style="font-weight: 700; color: rgb(63, 63, 64); font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">handling</strong></strong>:
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Catching all exceptions;</li>
+<li style="text-align: justify;"><span style="color: rgb(63, 63, 64); font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">The&nbsp;</span>try n<span style="color: rgb(63, 63, 64); font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">ested</span> blocks;</li>
+<li style="text-align: justify;">Iterated generation of exceptions.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using the checked and unchecked constructs.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Exception filters.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using the nameof.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>The life cycle of objects.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>The concept of a garbage collector.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>The concept of generations during garbage collection.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>The System.GC.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Finalizer class and the Finalize method.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>The Dispose method and the IDisposable interface.</strong></li>
+<li style="text-align: left; font-weight: bold;"><strong>Applying using when working with classes that implement the IDisposable interface</strong><em>.&nbsp;</em></li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_8">Lesson 8.<br>
+<strong><span style="color: rgb(47, 170, 79);">Generics, Using Generic Collections</span></strong></h2>
+<ol>
+<li style="font-weight: bold;"><strong>Generics:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is generics?</li>
+<li style="text-align: justify;">The need to use generics. Packing, unpacking (boxing, unboxing);</li>
+<li style="text-align: justify;">Comparative analysis of generic collections and non-generic collections;</li>
+<li style="text-align: justify;">Creating generic classes;</li>
+<li style="text-align: justify;">Nested t<span style="color: rgb(63, 63, 64); font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">ypes&nbsp;</span>inside a generic class;</li>
+<li style="text-align: justify;">Using limitations;</li>
+<li style="text-align: justify;">Creating generic methods;</li>
+<li style="text-align: justify;">Generic interfaces.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Iterators:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is an iterator?</li>
+<li style="text-align: justify;">Syntax and application examples of iterators.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Collections:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The concept of a collection;</li>
+<li style="text-align: justify;">Generic collections;</li>
+<li style="text-align: justify;">Collection classes List&lt;T&gt;, Dictionary&lt;TKey,TValue&gt;, Stack&lt;T&gt;, Queue&lt;T&gt;, SortedList&lt;TKey,TValue&gt; and others;</li>
+<li style="text-align: justify;">Collection interfaces IList&lt;T&gt;, IEnumerator&lt;T&gt;, IEnumerable&lt;T&gt;, ICollection&lt;T&gt;, IDictionary&lt;TKey,TValue&gt;, IComparer&lt;T&gt;, ...;</li>
+<li style="text-align: justify;">Examples of using generic collection classes<em>.</em></li>
+</ul>
+</li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_9">Lesson 9.<br>
+<strong><span style="color: rgb(47, 170, 79);">Delegates, Events. LINQ</span></strong></h2>
+<ol>
+<li style="font-weight: bold;"><strong>Delegates:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The concept of a delegate;</li>
+<li style="text-align: justify;">Base classes for delegates:
+<ul>
+<li style="text-align: justify;">System.Delegate;</li>
+<li style="text-align: justify;">System.MulticastDelegate.</li>
+</ul>
+</li>
+<li style="text-align: justify;">Syntax for declaring a delegate;</li>
+<li style="text-align: justify;">Tasks and objectives of delegates;</li>
+<li style="text-align: justify;">Calling multiple methods through a delegate (multicasting);</li>
+<li style="text-align: justify;">Creating generic delegates.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Events:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The concept of an event;</li>
+<li style="text-align: justify;">Syntax of event declaration;</li>
+<li style="text-align: justify;">The need and features of using events;</li>
+<li style="text-align: justify;">Using an event for a multicast delegate;</li>
+<li style="text-align: justify;">Using event-based access tools.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Anonymous methods.</strong></li>
+<li style="font-weight: bold;"><strong>Expression lambda:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Implementing the body of a method as an expression.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Extension methods.</strong></li>
+<li style="font-weight: bold;"><strong>LINQ to Object:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The role of LINQ;</li>
+<li style="text-align: justify;">Study of LINQ query operations;</li>
+<li style="text-align: justify;">Returning the result of a LINQ query. Anonymous types;</li>
+<li style="text-align: justify;">Applying LINQ queries to collection objects<em>.&nbsp;</em></li>
+</ul>
+</li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_10">Lesson 10.<br>
+<strong><span style="color: rgb(47, 170, 79);">Interaction with a File System.&nbsp;</span></strong><strong><span style="color: rgb(47, 170, 79);">Serialization</span></strong></h2>
+<ol>
+<li style="text-align: justify; font-weight: bold;"><strong>Stream model in C#. The System.IO space.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>The Stream class.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Analysis of byte stream classes.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Analysis of character stream classes.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Analysis of binary stream classes.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using the FileStream class for file operations.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using the StreamWriter class for file operations.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using the StreamReader class for file operations.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using the BinaryWriter class for file operations.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using the BinaryReader class for file operations.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Using the Directory, DirectoryInfo, File and FileInfo classes for file operations.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Regular expressions.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>The concept of attributes.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>What is serialization?</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Relations between objects.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Object relation graphs.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong><strong style="font-weight: 700; color: rgb(63, 63, 64); font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">[Serializable] and [NonSerialized] a</strong>ttributes for serialization.</strong></li>
+<li style="font-weight: bold;"><strong>Serialization formats:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">The System.Runtime.Serialization.Formatters space;</li>
+<li style="text-align: justify;">Binary formatting. The BinaryFormatter class;</li>
+<li style="text-align: justify;">Soap formatting. The SoapFormatter class;</li>
+<li style="text-align: justify;">Xml serialization. The XmlSerializer class;</li>
+<li style="text-align: justify;">Application examples of serialization;</li>
+<li style="text-align: justify;">Creating a custom serialization format. Interface ISerializable.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Logging:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is logging?</li>
+<li style="text-align: justify;">Tasks and objectives of logging;</li>
+<li style="text-align: justify;">Cases when logging is required;</li>
+<li style="text-align: justify;">Logging tools;</li>
+<li style="text-align: justify;">log4net;</li>
+<li style="text-align: justify;">Serilog;</li>
+<li style="text-align: justify;">NLog;</li>
+<li style="text-align: justify;">Application examples.</li>
+</ul>
+</li>
+</ol>
+<h2 style="text-align: left;" id="h-H2_11">Lesson 11.<br>
+<strong><span style="color: rgb(47, 170, 79);">Using Inherited Program Code</span></strong></h2>
+<ol>
+<li style="text-align: justify; font-weight: bold;"><strong>Why use inherited program code?</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>The System.Runtime.InteropServices space.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Interaction with Dll modules.</strong></li>
+<li style="font-weight: bold;">The <strong>DllImportAttribute class:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">ExactSpelling field;</li>
+<li style="text-align: justify;">EntryPoint field;</li>
+<li style="text-align: justify;">CharSet field;</li>
+<li style="text-align: justify;">Field CallingConvention;</li>
+<li style="text-align: justify;">SetLastError field.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Examples of use.</strong></li>
+<li style="text-align: justify; font-weight: bold;"><strong>Creating a DLL in C#.</strong></li>
+<li style="font-weight: bold;"><strong>Global Assembly Cache:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is Global Assembly Cache?</li>
+<li style="text-align: justify;">Goals and objectives of GAC;</li>
+<li style="text-align: justify;">Strict names and versions of DLLs;</li>
+<li style="text-align: justify;">Installing assemblies in GAC.</li>
+</ul>
+</li>
+<li style="font-weight: bold;">The <strong>Assembly class:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">Loading assemblies.</li>
+</ul>
+</li>
+<li style="text-align: justify; font-weight: bold;"><strong>Security mechanisms in the .Net Framework (Code Access Security</strong>)<em>.&nbsp;</em></li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_12">Lesson 12.<br>
+<strong><span style="color: rgb(47, 170, 79);">Introduction to UML and Design Patterns</span></strong></h2>
+<ol>
+<li style="font-weight: bold;"><strong>UML:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What is UML?</li>
+<li style="text-align: justify;">Tasks and objectives of UML diagrams;</li>
+<li style="text-align: justify;">Analysis of class diagrams;</li>
+<li style="text-align: justify;">Analysis of a use case diagram;</li>
+<li style="text-align: justify;">Analysis of a sequence diagram;</li>
+<li style="text-align: justify;">A brief overview of other diagrams.</li>
+</ul>
+</li>
+<li style="font-weight: bold;"><strong>Design patterns:</strong>
+<ul style="font-weight: initial;">
+<li style="text-align: justify;">What are design patterns?</li>
+<li style="text-align: justify;">Tasks and objectives of design patterns;</li>
+<li>Groups of design patterns:
+<ul>
+<li style="text-align: justify;">Generative patterns;</li>
+<li style="text-align: justify;">Structural patterns;</li>
+<li style="text-align: justify;">Behavioral patterns.</li>
+</ul>
+</li>
+<li>Analysis of patterns:
+<ul>
+<li>Singleton:
+<ul>
+<li style="text-align: justify;">Objective of the pattern;</li>
+<li style="text-align: justify;">Causes of the pattern;</li>
+<li style="text-align: justify;">Structure of the pattern;</li>
+<li style="text-align: justify;">Results of using the pattern;</li>
+<li style="text-align: justify;">Application example of the pattern.</li>
+</ul>
+</li>
+<li>Factory Method:
+<ul>
+<li style="text-align: justify;">Objective of the pattern;</li>
+<li style="text-align: justify;">Causes of the pattern;</li>
+<li style="text-align: justify;">Structure of the pattern;</li>
+<li style="text-align: justify;">Results of using the pattern;</li>
+<li style="text-align: justify;">Application example of the pattern.</li>
+</ul>
+</li>
+<li>Builder:
+<ul>
+<li style="text-align: justify;">Objective of the pattern;</li>
+<li style="text-align: justify;">Causes of the pattern;</li>
+<li style="text-align: justify;">Structure of the pattern;</li>
+<li style="text-align: justify;">Results of using the pattern;</li>
+<li style="text-align: justify;">Application example of the pattern.</li>
+</ul>
+</li>
+<li>Adapter:
+<ul>
+<li style="text-align: justify;">Objective of the pattern;</li>
+<li style="text-align: justify;">Causes of the pattern;</li>
+<li style="text-align: justify;">Structure of the pattern;</li>
+<li style="text-align: justify;">Results of using the pattern;</li>
+<li style="text-align: justify;">Application example of the pattern.</li>
+</ul>
+</li>
+<li>Facade:
+<ul>
+<li style="text-align: justify;">Objective of the pattern;</li>
+<li style="text-align: justify;">Causes of the pattern;</li>
+<li style="text-align: justify;">Structure of the pattern;</li>
+<li style="text-align: justify;">Results of using the pattern;</li>
+<li style="text-align: justify;">Application example of the pattern.</li>
+</ul>
+</li>
+<li>Observer:
+<ul>
+<li style="text-align: justify;">Objective of the pattern;</li>
+<li style="text-align: justify;">Causes of the pattern;</li>
+<li style="text-align: justify;">Structure of the pattern;</li>
+<li style="text-align: justify;">Results of using the pattern;</li>
+<li style="text-align: justify;">Application example of the pattern.</li>
+</ul>
+</li>
+<li>Strategy:
+<ul>
+<li style="text-align: justify;">Objective of the pattern;</li>
+<li style="text-align: justify;">Causes of the pattern;</li>
+<li style="text-align: justify;">Structure of the pattern;</li>
+<li style="text-align: justify;">Results of using the pattern;</li>
+<li style="text-align: justify;">Application example of the pattern.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 style="text-align: justify;" id="h-H2_13">Lesson 13.<br>
+<strong><span style="color: rgb(47, 170, 79);">Exam</span></strong></h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="copyright">
+<p></p>
+<p>© STEP IT Academy, <a href="https://itstep.org/" target="_blank">itstep.org</a></p>
+<p>
+All the copyrighted photos, audio, and video works, fragments of which are
+used in the material, are the property of their respective owners. Fragments
+of the works are used for illustrative purposes to the extent justified by
+the objective, within the educational process, and for educational purposes,
+in accordance with the Act of “On Copyright and Related Rights”. The scope
+and method of the cited works are in accordance with the adopted norms,
+without prejudice to the normal exploitation of copyright, and do not prejudice
+the legitimate interests of authors and right holders. At the time of use,
+the cited works fragments cannot be replaced by alternative, non-copyrighted
+counterparts and meet the criteria for fair use.
+All rights reserved. Any reproduction of the materials or its part is prohibited.
+Use of the works or their fragments must be agreed upon with authors
+and rights holders. Agreed material use is only possible with reference to
+the source.
+Responsibility for unauthorized copying and commercial use of the material
+is determined by the current legislation.
+</p>
+</div>
+</div>
+</main>
+<script src="./Course Syllabus Microsoft .NET Framework and C# Programming Language Version 5.0.0 __ Course Syllabus Microsoft .NET Framework and C# Programming Language_files/jquery-3.3.1.min.js.download"></script>
+<script src="./Course Syllabus Microsoft .NET Framework and C# Programming Language Version 5.0.0 __ Course Syllabus Microsoft .NET Framework and C# Programming Language_files/script.js.download"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

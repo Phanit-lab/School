@@ -1,0 +1,5 @@
+int age = age + 1;
+(age + 1) expresion
+(age and 1) Operance
+
+Create

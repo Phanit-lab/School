@@ -1,0 +1,4 @@
+read = input
+write = output
+modd flags
+ios::app(write continuce)

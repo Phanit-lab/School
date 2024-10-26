@@ -1,0 +1,14 @@
+"Are you ready to play Game? [yes/no]: yes
+1. rock
+2. paper
+3. scissor
+choice: 1
+1
+computer:(computer generated the)
+1
+you tail
+
+Are you want to continue playing this game? [yes/no]: yes
+(respite the game)
+Are you want to continue playing this game? [yes/no]: no
+Bye bye!!
